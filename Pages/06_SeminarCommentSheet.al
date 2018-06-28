@@ -10,15 +10,15 @@ page 123456706 "CSD Seminar Comment Line"
         {
             repeater(Group)
             {
-                field(Date;Date)
+                field(Date; Date)
                 {
 
                 }
-                field(Code;Code)
+                field(Code; Code)
                 {
-Visible=false;
+                    Visible = false;
                 }
-                field(Comment;Comment)
+                field(Comment; Comment)
                 {
 
                 }
