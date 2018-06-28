@@ -1,5 +1,6 @@
 pageextension 123456701 "CSD Resource List" extends "Resource List"
 {
+    // CSD1.00 - 2018-06-28 - areng
     layout
     {
         addafter(Type)
