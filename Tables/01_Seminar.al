@@ -1,7 +1,10 @@
 table 123456702 "CSD Seminar"
 {
+    // CSD1.00 - 2018-06-28 - areng
     DataClassification = ToBeClassified;
     Caption = 'Seminar';
+    LookupPageId = "CSD Seminar List";
+    DrillDownPageId = "CSD Seminar List";
 
     fields
     {
