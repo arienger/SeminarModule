@@ -1,0 +1,26 @@
+{
+  "id": "1770bb26-5214-41f5-9b23-f5a3f87a3b32",
+  "name": "Seminar Module",
+  "publisher": "areng",
+  "brief": "Module for managing Seminars",
+  "description": "Module for managing Seminars",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "features": "TranslationFile",
+  "showMyCode": true,
+  "target": "Internal",
+  "idRange": {
+    "from": 123456700,
+    "to": 123456799
+  }
+}
