@@ -1,4 +1,4 @@
-table 123456733 "CSD Seminar Register"
+table 123456733 "CSD Seminar Registers"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 7 - Lab 1

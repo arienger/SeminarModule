@@ -134,7 +134,7 @@ table 123456732 "CSD Seminar Ledger Entry"
             Caption = 'Reason Code';
             TableRelation = "Reason Code";
         }
-        field(27; "No. Series"; Code[10])
+        field(27; "Posting No. Series"; Code[10])
         {
             Caption = 'No. Series';
             TableRelation = "No. Series";
