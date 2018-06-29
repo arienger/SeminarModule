@@ -1,0 +1,65 @@
+Ctrl+Shift+P Command Palette
+Ctrl+Space Property List
+Shift+Alt+Arrow Down = Copy selected down
+Ctrl+F2 Change all appearences of the selected
+Alt+Shift+F Format Document
+Shift+Delete Slet Linje
+
+Alt+Arrow Left = Return to previous position - can be used with GoTo Definition
+Alt+Arrow Right = Go to next position after Alt+Arrow Left
+
+User Snippets:
+{
+	"tfieldop": {
+		"prefix": "tfieldop",
+		"body": [
+			"field(\t${1:id};\t${2:FieldName};\t${3:Type})\r",
+			"        {\r",
+			"            OptionMembers=\"\t${4:Member}1\",\"Member2\";\r",
+			"            OptionCaption='\t${5:Member1},Member2';\r",
+			"        }"
+		],
+		"description": "OptionField"
+	}
+}
+
+# Microsoft Community
+https://community.dynamics.com/nav/f/34
+
+#Microsft Github
+https://github.com/Microsoft/AL
+https://github.com/Microsoft/Docker
+
+# Peiks Blog
+https://dynamicsuser.net/nav/b/peik
+
+#Running AL/CAL Side-By-Side
+https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-running-cside-and-al-side-by-side
+
+# Writing Extension Install Code
+https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code
+
+#Upgrade Codeunits
+https://docs.microsoft.com/en-us/dynamics-nav/extensions-upgrade-howto
+
+#Upgrading Extensions
+https://docs.microsoft.com/en-us/dynamics-nav/extensions-upgrading
+https://docs.microsoft.com/da-dk/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions
+
+#Customizing Intellisense
+https://code.visualstudio.com/docs/editor/intellisense#_customizing-intellisense
+
+# Creating an RDL Layout Report in Business Central
+https://docs.microsoft.com/da-dk/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout
+
+# Using the Code Analysis Tool
+https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool
+
+# Working with Translation Files
+https://docs.microsoft.com/da-dk/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files
+
+# Object Numbering
+https://www.kauffmann.nl/2018/03/30/object-licensing-with-microsoft-dynamics-365-business-central/
+
+# Convert Dynamics NAV Language file to xlif
+https://forum.mibuso.com/discussion/70989/how-to-generate-xlf-file-for-caption-translation-from-nav-2018
