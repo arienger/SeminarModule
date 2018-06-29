@@ -9,7 +9,7 @@ page 123456713 "CSD Seminar Registration List"
     Editable = false;
     PageType = List;
     SourceTable = "CSD Seminar Reg. Header";
-    UsageCategory=lists;
+    UsageCategory = lists;
 
     layout
     {
@@ -17,38 +17,38 @@ page 123456713 "CSD Seminar Registration List"
         {
             repeater(Group)
             {
-                field("No.";"No.")
+                field("No."; "No.")
                 {
                 }
-                field("Starting Date";"Starting Date")
+                field("Starting Date"; "Starting Date")
                 {
                 }
-                field("Seminar No.";"Seminar No.")
+                field("Seminar No."; "Seminar No.")
                 {
                 }
-                field("Seminar Name";"Seminar Name")
+                field("Seminar Name"; "Seminar Name")
                 {
                 }
-                field(Status;Status)
+                field(Status; Status)
                 {
                 }
-                field(Duration;Duration)
+                field(Duration; Duration)
                 {
                 }
-                field("Maximum Participants";"Maximum Participants")
+                field("Maximum Participants"; "Maximum Participants")
                 {
                 }
-                field("Room Code";"Room Code")
+                field("Room Code"; "Room Code")
                 {
                 }
             }
         }
         area(factboxes)
         {
-            systempart("Links";Links)
+            systempart("Links"; Links)
             {
             }
-            systempart("Notes";Notes)
+            systempart("Notes"; Notes)
             {
             }
         }
@@ -66,24 +66,26 @@ page 123456713 "CSD Seminar Registration List"
                     Caption = 'Co&mments';
                     Image = Comment;
                     RunObject = Page 123456706;
-                    RunPageLink = "No."=Field("No.");
-                    RunPageView = where("Table Name"=const("Seminar Registration Header"));
+                    RunPageLink = "No." = Field ("No.");
+                    RunPageView = where ("Table Name" = const ("Seminar Registration Header"));
                 }
                 action("&Charges")
                 {
                     Caption = '&Charges';
                     Image = Costs;
                     RunObject = Page 123456724;
-                    RunPageLink = "Document No."=Field("No.");
+                    RunPageLink = "Document No." = Field ("No.");
                 }
-                action("&Post") { 
-                    Caption='&Post'; 
-                    Image=PostDocument; 
-                    Promoted=true; 
-                    PromotedIsBig=true; 
-                    PromotedCategory=Process; 
-                    ShortcutKey=F9; 
-                    RunObject=codeunit "CSD Seminar-Post (Yes/No)"; }
+                action("&Post")
+                {
+                    Caption = '&Post';
+                    Image = PostDocument;
+                    Promoted = true;
+                    PromotedIsBig = true;
+                    PromotedCategory = Process;
+                    ShortcutKey = F9;
+                    RunObject = codeunit "CSD Seminar-Post (Yes/No)";
+                }
             }
         }
     }

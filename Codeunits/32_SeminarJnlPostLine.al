@@ -58,7 +58,7 @@ codeunit 123456732 "CSD Seminar Jnl.-Post Line"
                     SeminarRegister."Creation Date" := TODAY;
                     SeminarRegister."Source Code" := "Source Code";
                     SeminarRegister."Journal Batch Name" := "Journal Batch Name";
-                    SeminarRegister."User ID" := USERID;
+                    SeminarRegister."User ID" := 'USERID';
                     SeminarRegister.Insert;
                 end;
             end;
