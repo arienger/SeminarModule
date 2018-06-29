@@ -18,7 +18,7 @@ table 123456700 "CSD Seminar Setup"
         {
             TableRelation = "No. Series";
         }
-        field(40; "Posted Seminar Reg.Nos."; Code[20])
+        field(40; "Posted Seminar Reg. Nos."; Code[20]) 
         {
             TableRelation = "No. Series";
         }

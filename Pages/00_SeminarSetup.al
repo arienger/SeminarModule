@@ -22,7 +22,7 @@ page 123456700 "CSD Seminar Setup"
                 {
 
                 }
-                field("Posted Seminar Reg.Nos."; "Posted Seminar Reg.Nos.")
+                field("Posted Seminar Reg.Nos."; "Posted Seminar Reg. Nos.")
                 {
 
                 }

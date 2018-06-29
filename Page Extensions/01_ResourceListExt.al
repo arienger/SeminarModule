@@ -9,7 +9,7 @@ pageextension 123456701 "CSD Resource List" extends "Resource List"
             {
 
             }
-            field("CSD Maximum Partipants"; "CSD Maximum Partipants")
+            field("CSD Maximum Partipants"; "CSD Maximum Participants")
             {
                 Visible = ShowMaxField;
             }
