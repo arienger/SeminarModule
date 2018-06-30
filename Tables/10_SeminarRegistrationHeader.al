@@ -291,9 +291,9 @@ table 123456710 "CSD Seminar Reg. Header"
 
     trigger OnDelete();
     begin
-        if (CurrFieldNo > 0) then
+        if(CurrFieldNo > 0) then
             TestField(Status, Status::Canceled);
-            
+
         SeminarRegLine.RESET;
         SeminarRegLine.SETRANGE("Document No.", "No.");
         SeminarRegLine.SETRANGE(Registered, true);
@@ -326,6 +326,12 @@ table 123456710 "CSD Seminar Reg. Header"
         end;
 
         InitRecord();
+
+        // >> Lab 8 1-1 
+        if GetFilter("Seminar No.") <> '' then
+            if GetRangeMin("Seminar No.") = GetRangeMax("Seminar No.") then
+                Validate("Seminar No.", GetRangeMin("Seminar No."));
+        // << Lab 8 1-1
     end;
 
     local procedure InitRecord();

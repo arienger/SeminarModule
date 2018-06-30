@@ -32,9 +32,10 @@ codeunit 123456700 "CSD Seminar-Post"
             end;
             SeminarRegLine.LockTable;
             SourceCodeSetup.Get;
+            SourceCodeSetup.TestField("CSD Seminar");
             SourceCode := SourceCodeSetup."CSD Seminar";
             PstdSeminarRegHeader.Init;
-            PstdSeminarRegHeader.TransferFields(SeminarRegHeader);
+            PstdSeminarRegHeader.TransferFields(SeminarRegHeader); // OBS kopierer basert paa feltnummer
             PstdSeminarRegHeader."No." := "Posting No.";
             PstdSeminarRegHeader."No. Series" := "Posting No. Series";
             PstdSeminarRegHeader."Source Code" := SourceCode;
