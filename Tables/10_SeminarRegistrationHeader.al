@@ -259,6 +259,11 @@ table 123456710 "CSD Seminar Reg. Header"
         field(28; "Posting No."; Code[20])
         {
         }
+        field(40; "No. Printed"; Integer)
+        {
+            Caption = 'No. Printed';
+            Editable = false;
+        }
 
     }
 
